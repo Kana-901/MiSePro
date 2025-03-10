@@ -622,3 +622,7 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [10Mar2025 17:02:32.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KanaShouri: Set own game mode to Creative Mode]
 [10Mar2025 17:03:53.000] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KanaShouri lost connection: Disconnected
 [10Mar2025 17:03:53.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KanaShouri left the game
+[10Mar2025 17:05:59.052] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Mar2025 17:05:59.061] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Mar2025 17:10:59.051] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Mar2025 17:10:59.058] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
