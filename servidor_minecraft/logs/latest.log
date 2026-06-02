@@ -1,0 +1,1447 @@
+[02Jun2026 21:24:53.210] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[02Jun2026 21:24:53.215] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.19 by Ubuntu; OS Linux arch amd64 version 6.8.0-1052-azure
+[02Jun2026 21:24:54.145] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[02Jun2026 21:24:54.193] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MiSePro/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[02Jun2026 21:24:54.649] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MiSePro/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[02Jun2026 21:24:54.650] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MiSePro/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[02Jun2026 21:24:54.651] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MiSePro/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[02Jun2026 21:24:54.652] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MiSePro/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[02Jun2026 21:24:54.922] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[02Jun2026 21:24:54.924] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: geckolib. Using Mod File: /workspaces/MiSePro/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.5.jar
+[02Jun2026 21:24:54.924] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 10 dependencies adding them to mods collection
+[02Jun2026 21:24:58.009] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[02Jun2026 21:24:58.106] [main/ERROR] [mixin/]: Mixin config celestisynth.mixins.json does not specify "minVersion" property
+[02Jun2026 21:24:58.277] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.camera.MixinConnector]
+[02Jun2026 21:24:58.280] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[02Jun2026 21:24:58.474] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.27.40+mc1.20.1: 108 options available, 0 override(s) found
+[02Jun2026 21:24:58.475] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[02Jun2026 21:24:58.497] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[02Jun2026 21:24:58.627] [main/WARN] [mixin/]: Reference map 'handcrafted-forge-1.20.1-forge-refmap.json' for handcrafted.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Jun2026 21:24:58.634] [main/WARN] [mixin/]: Reference map 'mynethersdelight.refmap.json' for mynethersdelight.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Jun2026 21:24:58.664] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Jun2026 21:24:58.694] [main/WARN] [mixin/]: Reference map 'mes-forge-refmap.json' for mes-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Jun2026 21:24:58.710] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Jun2026 21:24:58.754] [main/INFO] [Puzzles Lib/]: All mods {/workspaces/MiSePro/servidor_minecraft/mods/useless-sword-1.20.1-V1.4.1.jar#263!/=fuzs.puzzleslib.impl.core.ForgeModContainer@26c77f54, /workspaces/MiSePro/servidor_minecraft/mods/artifacts-forge-9.5.9.jar#187_/META-INF/jars/expandability-forge-9.0.4.jar#306!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3e856100, /workspaces/MiSePro/servidor_minecraft/mods/mcw-bridges-3.0.0-mc1.20.1forge.jar#230!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6e9a0bea, /workspaces/MiSePro/servidor_minecraft/mods/polymorph-forge-0.49.5+1.20.1.jar#248_/META-INF/jarjar/spectrelib-forge-0.13.15+1.20.1.jar#308!/=fuzs.puzzleslib.impl.core.ForgeModContainer@28fc1132, /workspaces/MiSePro/servidor_minecraft/mods/framework-forge-1.20.1-0.7.6.jar#213!/=fuzs.puzzleslib.impl.core.ForgeModContainer@355ce6a6, /workspaces/MiSePro/servidor_minecraft/mods/minecraft-comes-alive-7.5.18+1.20.1-universal.jar#234!/=fuzs.puzzleslib.impl.core.ForgeModContainer@20440c6c, /workspaces/MiSePro/servidor_minecraft/mods/EnchantingInfuser-v8.0.2-1.20.1-Forge.jar#208!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1e3f86d5, /workspaces/MiSePro/servidor_minecraft/mods/letsdo-bloomingnature-forge-1.0.7.jar#226!/=fuzs.puzzleslib.impl.core.ForgeModContainer@560271a1, /workspaces/MiSePro/servidor_minecraft/mods/mokels_witch_boss-1.0-forge-1.20.1.jar#237!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4b9c411, /workspaces/MiSePro/servidor_minecraft/mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar#224!/=fuzs.puzzleslib.impl.core.ForgeModContainer@41e9f86, /workspaces/MiSePro/servidor_minecraft/mods/Patchouli-1.20.1-84-FORGE.jar#246!/=fuzs.puzzleslib.impl.core.ForgeModContainer@66f5b8fe, /workspaces/MiSePro/servidor_minecraft/mods/netherdungeons-1.1.0-snapshot3a.jar#242!/=fuzs.puzzleslib.impl.core.ForgeModContainer@233f52f8, /workspaces/MiSePro/servidor_minecraft/mods/immersive_armors-1.7.2+1.20.1-forge.jar#222!/=fuzs.puzzleslib.impl.core.ForgeModContainer@69ec93c2, /workspaces/MiSePro/servidor_minecraft/mods/modernfix-forge-5.27.40+mc1.20.1.jar#236_/META-INF/jarjar/mixinextras-forge-0.4.1.jar#305!/=fuzs.puzzleslib.impl.core.ForgeModContainer@19fec3d6, /workspaces/MiSePro/servidor_minecraft/mods/balm-forge-1.20.1-7.3.4-all.jar#188_/META-INF/jarjar/kuma-api-forge-20.1.6+1.20.1.jar#299!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5287ba5f, /workspaces/MiSePro/servidor_minecraft/mods/bettervillage-forge-1.20.1-3.2.0.jar#190!/=fuzs.puzzleslib.impl.core.ForgeModContainer@b768a65, /workspaces/MiSePro/servidor_minecraft/mods/Bookshelf-Forge-1.20.1-20.1.11.jar#191!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6897a4a, /workspaces/MiSePro/servidor_minecraft/mods/ambientadditions-1.20.1-1.1.2.jar#183!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6986f93e, /workspaces/MiSePro/servidor_minecraft/mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar#247!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6bce313, /workspaces/MiSePro/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#250_/META-INF/jarjar/puzzlesaccessapi-forge-8.0.7.jar#301!/=fuzs.puzzleslib.impl.core.ForgeModContainer@39266403, /workspaces/MiSePro/servidor_minecraft/mods/gravestone-forge-1.20.1-1.0.15.jar#217!/=fuzs.puzzleslib.impl.core.ForgeModContainer@74b00247, /workspaces/MiSePro/servidor_minecraft/mods/omni_card-1.20.1-1.3.2.jar#243!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2aa14ae6, /workspaces/MiSePro/servidor_minecraft/mods/mizs_broom-1.0.2-forge-1.20.1.jar#235!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4be490da, /workspaces/MiSePro/servidor_minecraft/mods/sophisticatedbackpacks-1.20.1-3.20.5.1044.jar#256!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4168f3d9, /workspaces/MiSePro/servidor_minecraft/mods/beautify-2.0.2.jar#189!/=fuzs.puzzleslib.impl.core.ForgeModContainer@353e6389, /workspaces/MiSePro/servidor_minecraft/mods/cosmeticarmorreworked-1.20.1-v1a.jar#203!/=fuzs.puzzleslib.impl.core.ForgeModContainer@15e8f9b2, /workspaces/MiSePro/servidor_minecraft/mods/mcw-furniture-3.2.2-mc1.20.1forge.jar#231!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7a65c995, /workspaces/MiSePro/servidor_minecraft/mods/iceandfire-2.1.13-1.20.1-beta-5.jar#221!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7c950b3b, /workspaces/MiSePro/servidor_minecraft/mods/NaturesCompass-1.20.1-1.11.2-forge.jar#240!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3af10d0b, /workspaces/MiSePro/servidor_minecraft/mods/balm-forge-1.20.1-7.3.4-all.jar#188!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6806468e, /workspaces/MiSePro/servidor_minecraft/mods/ferritecore-6.0.1-forge.jar#212!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3c7b137a, /workspaces/MiSePro/servidor_minecraft/mods/Paraglider-forge-20.1.3.jar#245!/=fuzs.puzzleslib.impl.core.ForgeModContainer@68631b1d, /workspaces/MiSePro/servidor_minecraft/mods/citadel-2.6.3-1.20.1.jar#200!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5a48da4f, /workspaces/MiSePro/servidor_minecraft/mods/EnchantmentMachine-1.20.1-1.1.4.jar#209!/=fuzs.puzzleslib.impl.core.ForgeModContainer@a0c5be, /workspaces/MiSePro/servidor_minecraft/mods/irons_spellbooks-1.20.1-3.1.7.1.jar#223!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6424e613, /workspaces/MiSePro/servidor_minecraft/mods/DungeonsArise-1.20.x-2.1.58-release.jar#206!/=fuzs.puzzleslib.impl.core.ForgeModContainer@14efa279, /workspaces/MiSePro/servidor_minecraft/mods/watut-forge-1.20.1-1.1.1.jar#265!/=fuzs.puzzleslib.impl.core.ForgeModContainer@8e99809, /workspaces/MiSePro/servidor_minecraft/mods/handcrafted-forge-1.20.1-3.0.6.jar#218!/=fuzs.puzzleslib.impl.core.ForgeModContainer@e62319f, /workspaces/MiSePro/servidor_minecraft/mods/polymorph-forge-0.49.5+1.20.1.jar#248!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4d354a3e, /workspaces/MiSePro/servidor_minecraft/mods/The_Graveyard_3.1_(FORGE)_for_1.20.1.jar#260!/=fuzs.puzzleslib.impl.core.ForgeModContainer@24a0c58b, /workspaces/MiSePro/servidor_minecraft/mods/curios-forge-5.9.1+1.20.1.jar#205!/=fuzs.puzzleslib.impl.core.ForgeModContainer@604d28c6, /workspaces/MiSePro/servidor_minecraft/mods/realmrpg_dragon_wyrms_1.0.1_forge_1.20.1.jar#251!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7f3c0399, /workspaces/MiSePro/servidor_minecraft/mods/waystones-forge-1.20-14.1.3.jar#266!/=fuzs.puzzleslib.impl.core.ForgeModContainer@183fc2fa, /workspaces/MiSePro/servidor_minecraft/mods/otyacraftengine-forge-mc1.20-3.7.0-alpha.2.jar#244!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3a11c0eb, /workspaces/MiSePro/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar#269!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3313d477, /workspaces/MiSePro/servidor_minecraft/mods/FarmersDelight-1.20.1-1.2.4.jar#211!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2c2c3947, /workspaces/MiSePro/servidor_minecraft/mods/goblins_tyranny-1.2.3-forge-1.20.1.jar#215!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4a62062a, /workspaces/MiSePro/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#250!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7ec08115, /workspaces/MiSePro/servidor_minecraft/mods/alexsmobs-1.22.9.jar#182!/=fuzs.puzzleslib.impl.core.ForgeModContainer@53dd42d6, /workspaces/MiSePro/servidor_minecraft/mods/artifacts-forge-9.5.9.jar#187!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1e76afeb, /workspaces/MiSePro/servidor_minecraft/mods/humancompanions-1.20.1-1.7.6.jar#220!/=fuzs.puzzleslib.impl.core.ForgeModContainer@447fa959, /workspaces/MiSePro/servidor_minecraft/mods/libraryferret-forge-1.20.1-4.0.0.jar#229!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3e4d40ea, /workspaces/MiSePro/servidor_minecraft/mods/vanillaplustools-1.20-1.0.jar#264!/=fuzs.puzzleslib.impl.core.ForgeModContainer@73f6e07, /workspaces/MiSePro/servidor_minecraft/mods/Chimes-v2.0.1-1.20.1.jar#198!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2c9d90fc, /workspaces/MiSePro/servidor_minecraft/mods/born_in_chaos_[Forge]1.20.1_1.3.1.jar#192!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1511d157, /workspaces/MiSePro/servidor_minecraft/mods/goblintraders-forge-1.20.1-1.9.3.jar#216!/=fuzs.puzzleslib.impl.core.ForgeModContainer@418f890f, /workspaces/MiSePro/servidor_minecraft/mods/mcw-windows-2.2.1-mc1.20.1forge.jar#232!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3d3c886f, /workspaces/MiSePro/servidor_minecraft/mods/caelus-forge-3.2.0+1.20.1.jar#194!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7d66e544, /workspaces/MiSePro/servidor_minecraft/mods/supermartijn642corelib-1.1.17-forge-mc1.20.1.jar#258!/=fuzs.puzzleslib.impl.core.ForgeModContainer@666618d6, /workspaces/MiSePro/servidor_minecraft/mods/letsdo-vinery-forge-1.4.21.jar#228!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5b1c32e4, /workspaces/MiSePro/servidor_minecraft/mods/TreeChop-1.20.1-forge-0.19.0.jar#262!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2bab618, /workspaces/MiSePro/servidor_minecraft/mods/ars_nouveau-1.20.1-4.11.0-all.jar#186!/=fuzs.puzzleslib.impl.core.ForgeModContainer@48bc2fce, /workspaces/MiSePro/servidor_minecraft/mods/ExplorersCompass-1.20.1-1.3.3-forge.jar#210!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1eca3ea7, /workspaces/MiSePro/servidor_minecraft/mods/Butchersdelight beta 1.20.1 2.1.0.jar#193!/=fuzs.puzzleslib.impl.core.ForgeModContainer@24fba488, /workspaces/MiSePro/servidor_minecraft/mods/MyNethersDelight-1.20.1-0.1.1.jar#239!/=fuzs.puzzleslib.impl.core.ForgeModContainer@73a6cc79, /workspaces/MiSePro/servidor_minecraft/mods/realmrpg_imps_and_demons_0.9.0_forge_1.20.1.jar#252!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5a4d4f9c, /workspaces/MiSePro/servidor_minecraft/mods/TerraBlender-forge-1.20.1-3.0.1.7.jar#259!/=fuzs.puzzleslib.impl.core.ForgeModContainer@153d6d74, /workspaces/MiSePro/servidor_minecraft/mods/celestisynth-1.20.1-1.2.2.jar#196!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6c9b44bf, /workspaces/MiSePro/servidor_minecraft/mods/modernfix-forge-5.27.40+mc1.20.1.jar#236!/=fuzs.puzzleslib.impl.core.ForgeModContainer@299b9851, /workspaces/MiSePro/servidor_minecraft/mods/coroutil-forge-1.20.1-1.3.7.jar#202!/=fuzs.puzzleslib.impl.core.ForgeModContainer@191a0351, /workspaces/MiSePro/servidor_minecraft/mods/sophisticatedcore-1.20.1-0.6.22.611.jar#257!/=fuzs.puzzleslib.impl.core.ForgeModContainer@67328bcb, /workspaces/MiSePro/servidor_minecraft/mods/RegionsUnexploredForge-0.5.6+1.20.1.jar#253!/=fuzs.puzzleslib.impl.core.ForgeModContainer@51ba952e, /workspaces/MiSePro/servidor_minecraft/mods/cloth-config-11.1.118-forge.jar#201!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2416c658, /workspaces/MiSePro/servidor_minecraft/mods/SkyVillages-1.0.4-1.19.2-1.20.1-forge-release.jar#255!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6d5f4900, /workspaces/MiSePro/servidor_minecraft/mods/resourcefullib-forge-1.20.1-2.1.25.jar#254!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1e40fbb3, /workspaces/MiSePro/servidor_minecraft/mods/portablemobs-1.2.0-forge-mc1.20.jar#249!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1b560eb0, /workspaces/MiSePro/servidor_minecraft/mods/mowziesmobs-1.6.5.jar#238!/=fuzs.puzzleslib.impl.core.ForgeModContainer@9e02f84, /workspaces/MiSePro/servidor_minecraft/mods/camera-1.20.1-1.0.6.jar#195!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1e6060f1, /workspaces/MiSePro/servidor_minecraft/mods/hmag-forge-mc1.20.1-9.0.20.jar#219!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7e49ded, /workspaces/MiSePro/servidor_minecraft/mods/animal_feeding_trough-1.1.0+1.20.1-forge.jar#184!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2c6c302f, /workspaces/MiSePro/servidor_minecraft/mods/letsdo-nethervinery-forge-1.2.12.jar#227!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2478b629, /workspaces/MiSePro/servidor_minecraft/mods/letsdo-API-forge-1.2.13-forge.jar#225!/=fuzs.puzzleslib.impl.core.ForgeModContainer@39023dbf, /workspaces/MiSePro/servidor_minecraft/mods/mes-1.3.1-1.20-forge.jar#233!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1a2ac487, /workspaces/MiSePro/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-universal.jar#274!/=fuzs.puzzleslib.impl.core.ForgeModContainer@570a62a5, /workspaces/MiSePro/servidor_minecraft/mods/easy_npc_1.20.1-4.5.1.jar#207!/=fuzs.puzzleslib.impl.core.ForgeModContainer@36224f93, /workspaces/MiSePro/servidor_minecraft/mods/cozy_home-3.0.3.2-forge-1.20.1.jar#204!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1ee5632d, /workspaces/MiSePro/servidor_minecraft/mods/torchmaster-20.1.6.jar#261!/=fuzs.puzzleslib.impl.core.ForgeModContainer@52a7928a, /workspaces/MiSePro/servidor_minecraft/mods/cfm-forge-1.20.1-7.0.0-pre36.jar#197!/=fuzs.puzzleslib.impl.core.ForgeModContainer@563ccd31, /workspaces/MiSePro/servidor_minecraft/mods/Nether's Overhaul-1.20.1_V1.3.6.jar#241!/=fuzs.puzzleslib.impl.core.ForgeModContainer@72465eb2, /workspaces/MiSePro/servidor_minecraft/mods/Zeta-1.0-16.jar#267!/=fuzs.puzzleslib.impl.core.ForgeModContainer@478fb7dc, /workspaces/MiSePro/servidor_minecraft/mods/architectury-9.2.14-forge.jar#185!/=fuzs.puzzleslib.impl.core.ForgeModContainer@29d25e65, /workspaces/MiSePro/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.5.jar#214!/=fuzs.puzzleslib.impl.core.ForgeModContainer@19b75b2b}
+[02Jun2026 21:24:58.755] [main/INFO] [Puzzles Lib/]: Scheme for useless_sword: /workspaces/MiSePro/servidor_minecraft/mods/useless-sword-1.20.1-V1.4.1.jar#263!/
+[02Jun2026 21:24:58.755] [main/INFO] [Puzzles Lib/]: Scheme for expandability: /workspaces/MiSePro/servidor_minecraft/mods/artifacts-forge-9.5.9.jar#187!/
+[02Jun2026 21:24:58.756] [main/INFO] [Puzzles Lib/]: Scheme for mcwbridges: /workspaces/MiSePro/servidor_minecraft/mods/mcw-bridges-3.0.0-mc1.20.1forge.jar#230!/
+[02Jun2026 21:24:58.756] [main/INFO] [Puzzles Lib/]: Scheme for spectrelib: /workspaces/MiSePro/servidor_minecraft/mods/polymorph-forge-0.49.5+1.20.1.jar#248!/
+[02Jun2026 21:24:58.756] [main/INFO] [Puzzles Lib/]: Scheme for framework: /workspaces/MiSePro/servidor_minecraft/mods/framework-forge-1.20.1-0.7.6.jar#213!/
+[02Jun2026 21:24:58.756] [main/INFO] [Puzzles Lib/]: Scheme for mca: /workspaces/MiSePro/servidor_minecraft/mods/minecraft-comes-alive-7.5.18+1.20.1-universal.jar#234!/
+[02Jun2026 21:24:58.756] [main/INFO] [Puzzles Lib/]: Scheme for enchantinginfuser: /workspaces/MiSePro/servidor_minecraft/mods/EnchantingInfuser-v8.0.2-1.20.1-Forge.jar#208!/
+[02Jun2026 21:24:58.756] [main/INFO] [Puzzles Lib/]: Scheme for bloomingnature: /workspaces/MiSePro/servidor_minecraft/mods/letsdo-bloomingnature-forge-1.0.7.jar#226!/
+[02Jun2026 21:24:58.757] [main/INFO] [Puzzles Lib/]: Scheme for mokels_witch_boss: /workspaces/MiSePro/servidor_minecraft/mods/mokels_witch_boss-1.0-forge-1.20.1.jar#237!/
+[02Jun2026 21:24:58.757] [main/INFO] [Puzzles Lib/]: Scheme for konkrete: /workspaces/MiSePro/servidor_minecraft/mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar#224!/
+[02Jun2026 21:24:58.757] [main/INFO] [Puzzles Lib/]: Scheme for patchouli: /workspaces/MiSePro/servidor_minecraft/mods/Patchouli-1.20.1-84-FORGE.jar#246!/
+[02Jun2026 21:24:58.757] [main/INFO] [Puzzles Lib/]: Scheme for netherdungeons: /workspaces/MiSePro/servidor_minecraft/mods/netherdungeons-1.1.0-snapshot3a.jar#242!/
+[02Jun2026 21:24:58.757] [main/INFO] [Puzzles Lib/]: Scheme for immersive_armors: /workspaces/MiSePro/servidor_minecraft/mods/immersive_armors-1.7.2+1.20.1-forge.jar#222!/
+[02Jun2026 21:24:58.757] [main/INFO] [Puzzles Lib/]: Scheme for mixinextras: /workspaces/MiSePro/servidor_minecraft/mods/modernfix-forge-5.27.40+mc1.20.1.jar#236!/
+[02Jun2026 21:24:58.758] [main/INFO] [Puzzles Lib/]: Scheme for kuma_api: /workspaces/MiSePro/servidor_minecraft/mods/balm-forge-1.20.1-7.3.4-all.jar#188!/
+[02Jun2026 21:24:58.758] [main/INFO] [Puzzles Lib/]: Scheme for bettervillage: /workspaces/MiSePro/servidor_minecraft/mods/bettervillage-forge-1.20.1-3.2.0.jar#190!/
+[02Jun2026 21:24:58.758] [main/INFO] [Puzzles Lib/]: Scheme for bookshelf: /workspaces/MiSePro/servidor_minecraft/mods/Bookshelf-Forge-1.20.1-20.1.11.jar#191!/
+[02Jun2026 21:24:58.758] [main/INFO] [Puzzles Lib/]: Scheme for ambientadditions: /workspaces/MiSePro/servidor_minecraft/mods/ambientadditions-1.20.1-1.1.2.jar#183!/
+[02Jun2026 21:24:58.758] [main/INFO] [Puzzles Lib/]: Scheme for playeranimator: /workspaces/MiSePro/servidor_minecraft/mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar#247!/
+[02Jun2026 21:24:58.758] [main/INFO] [Puzzles Lib/]: Scheme for puzzlesaccessapi: /workspaces/MiSePro/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#250!/
+[02Jun2026 21:24:58.758] [main/INFO] [Puzzles Lib/]: Scheme for gravestone: /workspaces/MiSePro/servidor_minecraft/mods/gravestone-forge-1.20.1-1.0.15.jar#217!/
+[02Jun2026 21:24:58.759] [main/INFO] [Puzzles Lib/]: Scheme for omni_card: /workspaces/MiSePro/servidor_minecraft/mods/omni_card-1.20.1-1.3.2.jar#243!/
+[02Jun2026 21:24:58.759] [main/INFO] [Puzzles Lib/]: Scheme for mizs_broom: /workspaces/MiSePro/servidor_minecraft/mods/mizs_broom-1.0.2-forge-1.20.1.jar#235!/
+[02Jun2026 21:24:58.759] [main/INFO] [Puzzles Lib/]: Scheme for sophisticatedbackpacks: /workspaces/MiSePro/servidor_minecraft/mods/sophisticatedbackpacks-1.20.1-3.20.5.1044.jar#256!/
+[02Jun2026 21:24:58.759] [main/INFO] [Puzzles Lib/]: Scheme for beautify: /workspaces/MiSePro/servidor_minecraft/mods/beautify-2.0.2.jar#189!/
+[02Jun2026 21:24:58.759] [main/INFO] [Puzzles Lib/]: Scheme for cosmeticarmorreworked: /workspaces/MiSePro/servidor_minecraft/mods/cosmeticarmorreworked-1.20.1-v1a.jar#203!/
+[02Jun2026 21:24:58.759] [main/INFO] [Puzzles Lib/]: Scheme for mcwfurnitures: /workspaces/MiSePro/servidor_minecraft/mods/mcw-furniture-3.2.2-mc1.20.1forge.jar#231!/
+[02Jun2026 21:24:58.760] [main/INFO] [Puzzles Lib/]: Scheme for iceandfire: /workspaces/MiSePro/servidor_minecraft/mods/iceandfire-2.1.13-1.20.1-beta-5.jar#221!/
+[02Jun2026 21:24:58.760] [main/INFO] [Puzzles Lib/]: Scheme for naturescompass: /workspaces/MiSePro/servidor_minecraft/mods/NaturesCompass-1.20.1-1.11.2-forge.jar#240!/
+[02Jun2026 21:24:58.760] [main/INFO] [Puzzles Lib/]: Scheme for balm: /workspaces/MiSePro/servidor_minecraft/mods/balm-forge-1.20.1-7.3.4-all.jar#188!/
+[02Jun2026 21:24:58.760] [main/INFO] [Puzzles Lib/]: Scheme for ferritecore: /workspaces/MiSePro/servidor_minecraft/mods/ferritecore-6.0.1-forge.jar#212!/
+[02Jun2026 21:24:58.760] [main/INFO] [Puzzles Lib/]: Scheme for paraglider: /workspaces/MiSePro/servidor_minecraft/mods/Paraglider-forge-20.1.3.jar#245!/
+[02Jun2026 21:24:58.760] [main/INFO] [Puzzles Lib/]: Scheme for citadel: /workspaces/MiSePro/servidor_minecraft/mods/citadel-2.6.3-1.20.1.jar#200!/
+[02Jun2026 21:24:58.761] [main/INFO] [Puzzles Lib/]: Scheme for enchantmentmachine: /workspaces/MiSePro/servidor_minecraft/mods/EnchantmentMachine-1.20.1-1.1.4.jar#209!/
+[02Jun2026 21:24:58.761] [main/INFO] [Puzzles Lib/]: Scheme for irons_spellbooks: /workspaces/MiSePro/servidor_minecraft/mods/irons_spellbooks-1.20.1-3.1.7.1.jar#223!/
+[02Jun2026 21:24:58.761] [main/INFO] [Puzzles Lib/]: Scheme for dungeons_arise: /workspaces/MiSePro/servidor_minecraft/mods/DungeonsArise-1.20.x-2.1.58-release.jar#206!/
+[02Jun2026 21:24:58.761] [main/INFO] [Puzzles Lib/]: Scheme for watut: /workspaces/MiSePro/servidor_minecraft/mods/watut-forge-1.20.1-1.1.1.jar#265!/
+[02Jun2026 21:24:58.761] [main/INFO] [Puzzles Lib/]: Scheme for handcrafted: /workspaces/MiSePro/servidor_minecraft/mods/handcrafted-forge-1.20.1-3.0.6.jar#218!/
+[02Jun2026 21:24:58.761] [main/INFO] [Puzzles Lib/]: Scheme for polymorph: /workspaces/MiSePro/servidor_minecraft/mods/polymorph-forge-0.49.5+1.20.1.jar#248!/
+[02Jun2026 21:24:58.761] [main/INFO] [Puzzles Lib/]: Scheme for graveyard: /workspaces/MiSePro/servidor_minecraft/mods/The_Graveyard_3.1_(FORGE)_for_1.20.1.jar#260!/
+[02Jun2026 21:24:58.762] [main/INFO] [Puzzles Lib/]: Scheme for curios: /workspaces/MiSePro/servidor_minecraft/mods/curios-forge-5.9.1+1.20.1.jar#205!/
+[02Jun2026 21:24:58.762] [main/INFO] [Puzzles Lib/]: Scheme for realmrpg_wyrms: /workspaces/MiSePro/servidor_minecraft/mods/realmrpg_dragon_wyrms_1.0.1_forge_1.20.1.jar#251!/
+[02Jun2026 21:24:58.762] [main/INFO] [Puzzles Lib/]: Scheme for waystones: /workspaces/MiSePro/servidor_minecraft/mods/waystones-forge-1.20-14.1.3.jar#266!/
+[02Jun2026 21:24:58.762] [main/INFO] [Puzzles Lib/]: Scheme for otyacraftengine: /workspaces/MiSePro/servidor_minecraft/mods/otyacraftengine-forge-mc1.20-3.7.0-alpha.2.jar#244!/
+[02Jun2026 21:24:58.762] [main/INFO] [Puzzles Lib/]: Scheme for minecraft: /workspaces/MiSePro/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar#269!/
+[02Jun2026 21:24:58.762] [main/INFO] [Puzzles Lib/]: Scheme for farmersdelight: /workspaces/MiSePro/servidor_minecraft/mods/FarmersDelight-1.20.1-1.2.4.jar#211!/
+[02Jun2026 21:24:58.763] [main/INFO] [Puzzles Lib/]: Scheme for goblins_tyranny: /workspaces/MiSePro/servidor_minecraft/mods/goblins_tyranny-1.2.3-forge-1.20.1.jar#215!/
+[02Jun2026 21:24:58.763] [main/INFO] [Puzzles Lib/]: Scheme for puzzleslib: /workspaces/MiSePro/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#250!/
+[02Jun2026 21:24:58.763] [main/INFO] [Puzzles Lib/]: Scheme for alexsmobs: /workspaces/MiSePro/servidor_minecraft/mods/alexsmobs-1.22.9.jar#182!/
+[02Jun2026 21:24:58.763] [main/INFO] [Puzzles Lib/]: Scheme for artifacts: /workspaces/MiSePro/servidor_minecraft/mods/artifacts-forge-9.5.9.jar#187!/
+[02Jun2026 21:24:58.763] [main/INFO] [Puzzles Lib/]: Scheme for humancompanions: /workspaces/MiSePro/servidor_minecraft/mods/humancompanions-1.20.1-1.7.6.jar#220!/
+[02Jun2026 21:24:58.763] [main/INFO] [Puzzles Lib/]: Scheme for libraryferret: /workspaces/MiSePro/servidor_minecraft/mods/libraryferret-forge-1.20.1-4.0.0.jar#229!/
+[02Jun2026 21:24:58.764] [main/INFO] [Puzzles Lib/]: Scheme for vanillaplustools: /workspaces/MiSePro/servidor_minecraft/mods/vanillaplustools-1.20-1.0.jar#264!/
+[02Jun2026 21:24:58.764] [main/INFO] [Puzzles Lib/]: Scheme for chimes: /workspaces/MiSePro/servidor_minecraft/mods/Chimes-v2.0.1-1.20.1.jar#198!/
+[02Jun2026 21:24:58.764] [main/INFO] [Puzzles Lib/]: Scheme for born_in_chaos_v1: /workspaces/MiSePro/servidor_minecraft/mods/born_in_chaos_[Forge]1.20.1_1.3.1.jar#192!/
+[02Jun2026 21:24:58.764] [main/INFO] [Puzzles Lib/]: Scheme for goblintraders: /workspaces/MiSePro/servidor_minecraft/mods/goblintraders-forge-1.20.1-1.9.3.jar#216!/
+[02Jun2026 21:24:58.764] [main/INFO] [Puzzles Lib/]: Scheme for mcwwindows: /workspaces/MiSePro/servidor_minecraft/mods/mcw-windows-2.2.1-mc1.20.1forge.jar#232!/
+[02Jun2026 21:24:58.764] [main/INFO] [Puzzles Lib/]: Scheme for caelus: /workspaces/MiSePro/servidor_minecraft/mods/caelus-forge-3.2.0+1.20.1.jar#194!/
+[02Jun2026 21:24:58.765] [main/INFO] [Puzzles Lib/]: Scheme for supermartijn642corelib: /workspaces/MiSePro/servidor_minecraft/mods/supermartijn642corelib-1.1.17-forge-mc1.20.1.jar#258!/
+[02Jun2026 21:24:58.765] [main/INFO] [Puzzles Lib/]: Scheme for vinery: /workspaces/MiSePro/servidor_minecraft/mods/letsdo-vinery-forge-1.4.21.jar#228!/
+[02Jun2026 21:24:58.765] [main/INFO] [Puzzles Lib/]: Scheme for treechop: /workspaces/MiSePro/servidor_minecraft/mods/TreeChop-1.20.1-forge-0.19.0.jar#262!/
+[02Jun2026 21:24:58.765] [main/INFO] [Puzzles Lib/]: Scheme for ars_nouveau: /workspaces/MiSePro/servidor_minecraft/mods/ars_nouveau-1.20.1-4.11.0-all.jar#186!/
+[02Jun2026 21:24:58.765] [main/INFO] [Puzzles Lib/]: Scheme for explorerscompass: /workspaces/MiSePro/servidor_minecraft/mods/ExplorersCompass-1.20.1-1.3.3-forge.jar#210!/
+[02Jun2026 21:24:58.766] [main/INFO] [Puzzles Lib/]: Scheme for butchersdelight: /workspaces/MiSePro/servidor_minecraft/mods/Butchersdelight beta 1.20.1 2.1.0.jar#193!/
+[02Jun2026 21:24:58.766] [main/INFO] [Puzzles Lib/]: Scheme for mynethersdelight: /workspaces/MiSePro/servidor_minecraft/mods/MyNethersDelight-1.20.1-0.1.1.jar#239!/
+[02Jun2026 21:24:58.766] [main/INFO] [Puzzles Lib/]: Scheme for realmrpg_demons: /workspaces/MiSePro/servidor_minecraft/mods/realmrpg_imps_and_demons_0.9.0_forge_1.20.1.jar#252!/
+[02Jun2026 21:24:58.766] [main/INFO] [Puzzles Lib/]: Scheme for terrablender: /workspaces/MiSePro/servidor_minecraft/mods/TerraBlender-forge-1.20.1-3.0.1.7.jar#259!/
+[02Jun2026 21:24:58.766] [main/INFO] [Puzzles Lib/]: Scheme for celestisynth: /workspaces/MiSePro/servidor_minecraft/mods/celestisynth-1.20.1-1.2.2.jar#196!/
+[02Jun2026 21:24:58.766] [main/INFO] [Puzzles Lib/]: Scheme for modernfix: /workspaces/MiSePro/servidor_minecraft/mods/modernfix-forge-5.27.40+mc1.20.1.jar#236!/
+[02Jun2026 21:24:58.767] [main/INFO] [Puzzles Lib/]: Scheme for coroutil: /workspaces/MiSePro/servidor_minecraft/mods/coroutil-forge-1.20.1-1.3.7.jar#202!/
+[02Jun2026 21:24:58.770] [main/INFO] [Puzzles Lib/]: Scheme for sophisticatedcore: /workspaces/MiSePro/servidor_minecraft/mods/sophisticatedcore-1.20.1-0.6.22.611.jar#257!/
+[02Jun2026 21:24:58.770] [main/INFO] [Puzzles Lib/]: Scheme for regions_unexplored: /workspaces/MiSePro/servidor_minecraft/mods/RegionsUnexploredForge-0.5.6+1.20.1.jar#253!/
+[02Jun2026 21:24:58.770] [main/INFO] [Puzzles Lib/]: Scheme for cloth_config: /workspaces/MiSePro/servidor_minecraft/mods/cloth-config-11.1.118-forge.jar#201!/
+[02Jun2026 21:24:58.770] [main/INFO] [Puzzles Lib/]: Scheme for skyvillages: /workspaces/MiSePro/servidor_minecraft/mods/SkyVillages-1.0.4-1.19.2-1.20.1-forge-release.jar#255!/
+[02Jun2026 21:24:58.771] [main/INFO] [Puzzles Lib/]: Scheme for resourcefullib: /workspaces/MiSePro/servidor_minecraft/mods/resourcefullib-forge-1.20.1-2.1.25.jar#254!/
+[02Jun2026 21:24:58.771] [main/INFO] [Puzzles Lib/]: Scheme for portablemobs: /workspaces/MiSePro/servidor_minecraft/mods/portablemobs-1.2.0-forge-mc1.20.jar#249!/
+[02Jun2026 21:24:58.771] [main/INFO] [Puzzles Lib/]: Scheme for mowziesmobs: /workspaces/MiSePro/servidor_minecraft/mods/mowziesmobs-1.6.5.jar#238!/
+[02Jun2026 21:24:58.771] [main/INFO] [Puzzles Lib/]: Scheme for camera: /workspaces/MiSePro/servidor_minecraft/mods/camera-1.20.1-1.0.6.jar#195!/
+[02Jun2026 21:24:58.771] [main/INFO] [Puzzles Lib/]: Scheme for hmag: /workspaces/MiSePro/servidor_minecraft/mods/hmag-forge-mc1.20.1-9.0.20.jar#219!/
+[02Jun2026 21:24:58.772] [main/INFO] [Puzzles Lib/]: Scheme for animal_feeding_trough: /workspaces/MiSePro/servidor_minecraft/mods/animal_feeding_trough-1.1.0+1.20.1-forge.jar#184!/
+[02Jun2026 21:24:58.772] [main/INFO] [Puzzles Lib/]: Scheme for nethervinery: /workspaces/MiSePro/servidor_minecraft/mods/letsdo-nethervinery-forge-1.2.12.jar#227!/
+[02Jun2026 21:24:58.772] [main/INFO] [Puzzles Lib/]: Scheme for doapi: /workspaces/MiSePro/servidor_minecraft/mods/letsdo-API-forge-1.2.13-forge.jar#225!/
+[02Jun2026 21:24:58.772] [main/INFO] [Puzzles Lib/]: Scheme for mes: /workspaces/MiSePro/servidor_minecraft/mods/mes-1.3.1-1.20-forge.jar#233!/
+[02Jun2026 21:24:58.772] [main/INFO] [Puzzles Lib/]: Scheme for forge: /workspaces/MiSePro/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-universal.jar#274!/
+[02Jun2026 21:24:58.772] [main/INFO] [Puzzles Lib/]: Scheme for easy_npc: /workspaces/MiSePro/servidor_minecraft/mods/easy_npc_1.20.1-4.5.1.jar#207!/
+[02Jun2026 21:24:58.773] [main/INFO] [Puzzles Lib/]: Scheme for cozy_home: /workspaces/MiSePro/servidor_minecraft/mods/cozy_home-3.0.3.2-forge-1.20.1.jar#204!/
+[02Jun2026 21:24:58.773] [main/INFO] [Puzzles Lib/]: Scheme for torchmaster: /workspaces/MiSePro/servidor_minecraft/mods/torchmaster-20.1.6.jar#261!/
+[02Jun2026 21:24:58.773] [main/INFO] [Puzzles Lib/]: Scheme for cfm: /workspaces/MiSePro/servidor_minecraft/mods/cfm-forge-1.20.1-7.0.0-pre36.jar#197!/
+[02Jun2026 21:24:58.773] [main/INFO] [Puzzles Lib/]: Scheme for netheroverhaul: /workspaces/MiSePro/servidor_minecraft/mods/Nether's Overhaul-1.20.1_V1.3.6.jar#241!/
+[02Jun2026 21:24:58.773] [main/INFO] [Puzzles Lib/]: Scheme for zeta: /workspaces/MiSePro/servidor_minecraft/mods/Zeta-1.0-16.jar#267!/
+[02Jun2026 21:24:58.774] [main/INFO] [Puzzles Lib/]: Scheme for architectury: /workspaces/MiSePro/servidor_minecraft/mods/architectury-9.2.14-forge.jar#185!/
+[02Jun2026 21:24:58.774] [main/INFO] [Puzzles Lib/]: Scheme for geckolib: /workspaces/MiSePro/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.5.jar#214!/
+[02Jun2026 21:24:58.777] [main/INFO] [Puzzles Lib/]: Loading 92 mods:
+	- alexsmobs 1.22.9
+	- ambientadditions 1.20.1-1.1.2
+	- animal_feeding_trough 1.1.0+1.20.1-forge
+	- architectury 9.2.14
+	- ars_nouveau 4.11.0
+	- artifacts 9.5.9
+		\-- expandability 9.0.4
+	- balm 7.3.4
+		\-- kuma_api 20.1.6
+	- beautify 2.0.2
+	- bettervillage 3.1.0
+	- bloomingnature 1.0.7
+	- bookshelf 20.1.11
+	- born_in_chaos_v1 1.0.0
+	- butchersdelight 1.20.12.1.0
+	- caelus 3.2.0+1.20.1
+	- camera 1.20.1-1.0.6
+	- celestisynth 1.20.1-1.2.2
+	- cfm 7.0.0-pre36
+	- chimes 2.0.1
+	- citadel 2.6.3
+	- cloth_config 11.1.118
+	- coroutil 1.20.1-1.3.7
+	- cosmeticarmorreworked 1.20.1-v1a
+	- cozy_home 3.0.3.2
+	- curios 5.9.1+1.20.1
+	- doapi 1.2.13
+		\-- terraform 7.0.1
+	- dungeons_arise 2.1.58-1.20.x
+	- easy_npc 4.5.1
+	- enchantinginfuser 8.0.2
+	- enchantmentmachine 1.1.4
+	- explorerscompass 1.20.1-1.3.3-forge
+	- farmersdelight 1.20.1-1.2.4
+	- ferritecore 6.0.1
+	- forge 47.3.7
+	- framework 0.7.6
+	- geckolib 4.4.5
+	- goblins_tyranny 1.2.3
+	- goblintraders 1.9.3
+	- gravestone 1.20.1-1.0.15
+	- graveyard 3.1
+	- handcrafted 3.0.6
+	- hmag 9.0.20
+	- humancompanions 1.20.1-1.7.6
+	- iceandfire 2.1.13-1.20.1
+	- immersive_armors 1.7.2+1.20.1
+	- irons_spellbooks 1.20.1-3.1.7.1
+	- konkrete 1.8.0
+	- libraryferret 4.0.0
+	- mca 7.5.18+1.20.1
+	- mcwbridges 3.0.0
+	- mcwfurnitures 3.2.2
+	- mcwwindows 2.2.1
+	- mes 1.3.1-1.20-forge
+	- minecraft 1.20.1
+	- mizs_broom 1.0.0
+	- modernfix 5.27.40+mc1.20.1
+		\-- mixinextras 0.4.1
+	- mokels_witch_boss 1.0.0
+	- mowziesmobs 1.6.4
+	- mynethersdelight 1.20.1-1.1
+	- naturescompass 1.20.1-1.11.2-forge
+	- netherdungeons 1.1.0-snapshot3a
+	- netheroverhaul 1.3.6
+	- nethervinery 1.2.12
+	- omni_card 1.3.2
+	- otyacraftengine 3.7.0-alpha.2
+	- paraglider 20.1.3
+	- patchouli 1.20.1-84-FORGE
+	- playeranimator 1.0.2-rc1+1.20
+	- polymorph 0.49.5+1.20.1
+		\-- spectrelib 0.13.15+1.20.1
+	- portablemobs 1.2.0
+	- puzzleslib 8.1.20
+		\-- puzzlesaccessapi 8.0.7
+	- realmrpg_demons 0.9.0
+	- realmrpg_wyrms 1.0.1
+	- regions_unexplored 0.5.6
+	- resourcefullib 2.1.25
+	- skyvillages 1.0.4
+	- sophisticatedbackpacks 3.20.5.1044
+	- sophisticatedcore 0.6.22.611
+	- supermartijn642corelib 1.1.17
+	- terrablender 3.0.1.7
+	- torchmaster 20.1.6
+	- treechop 0.18.8
+	- useless_sword 1.4.1
+	- vanillaplustools 1.20-1.0
+	- vinery 1.4.21
+	- watut 1.20.1-1.1.1
+	- waystones 14.1.3
+	- zeta 1.0-16
+[02Jun2026 21:25:00.551] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[02Jun2026 21:25:00.919] [main/WARN] [net.minecraft.SystemReport/]: Failed retrieving info for group hardware
+java.lang.NoClassDefFoundError: com/sun/jna/Platform
+	at oshi.SystemInfo.<clinit>(SystemInfo.java:60) ~[oshi-core-6.2.2.jar%2369!/:6.2.2]
+	at net.minecraft.SystemReport.m_143564_(SystemReport.java:52) ~[server-1.20.1-20230612.114412-srg.jar%23269!/:?]
+	at net.minecraft.SystemReport.m_143516_(SystemReport.java:82) ~[server-1.20.1-20230612.114412-srg.jar%23269!/:?]
+	at net.minecraft.SystemReport.<init>(SystemReport.java:52) ~[server-1.20.1-20230612.114412-srg.jar%23269!/:?]
+	at net.minecraft.CrashReport.<init>(CrashReport.java:31) ~[server-1.20.1-20230612.114412-srg.jar%23269!/:?]
+	at net.minecraft.CrashReport.m_127529_(CrashReport.java:216) ~[server-1.20.1-20230612.114412-srg.jar%23269!/:?]
+	at net.minecraft.server.Main.main(Main.java:116) ~[server-1.20.1-20230612.114412-srg.jar%23269!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+Caused by: java.lang.ClassNotFoundException: com.sun.jna.Platform
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	... 22 more
+[02Jun2026 21:25:01.002] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (9.833 s after launch)
+[02Jun2026 21:25:01.281] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[02Jun2026 21:25:01.283] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[02Jun2026 21:25:03.250] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2221 milliseconds
+[02Jun2026 21:25:06.183] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-modernfix.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[02Jun2026 21:25:06.689] [modloading-worker-0/INFO] [Easy NPC/]: Initializing Easy NPC (Forge) ...
+[02Jun2026 21:25:06.690] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Debug Manager ...
+[02Jun2026 21:25:06.692] [modloading-worker-0/WARN] [Easy NPC/]: [Debug Manager] Detected debug log level for Easy NPC with ALL!
+[02Jun2026 21:25:06.696] [modloading-worker-0/WARN] [Easy NPC/]: [Debug Manager] Adjusting log level for Easy NPC from ALL to INFO, for performance reasons!
+[02Jun2026 21:25:06.697] [modloading-worker-0/INFO] [Easy NPC/]: [Debug Manager] Add new logger config for Easy NPC with level INFO ...
+[02Jun2026 21:25:06.715] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Constants ...
+[02Jun2026 21:25:06.717] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Command Argument Types ...
+[02Jun2026 21:25:06.744] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Entities Types ...
+[02Jun2026 21:25:06.752] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Blocks ...
+[02Jun2026 21:25:06.755] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Blocks Entity Types ...
+[02Jun2026 21:25:06.761] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Items ...
+[02Jun2026 21:25:06.788] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Menu Handler ...
+[02Jun2026 21:25:06.804] [modloading-worker-0/INFO] [Easy NPC/]: Registering Easy NPC common config ...
+[02Jun2026 21:25:06.807] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Menu Types ...
+[02Jun2026 21:25:06.825] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Network Handler ...
+[02Jun2026 21:25:06.833] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Client Network Message Handler ...
+[02Jun2026 21:25:06.845] [modloading-worker-0/INFO] [Easy NPC/]: Registering Easy NPC client config ...
+[02Jun2026 21:25:07.096] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[02Jun2026 21:25:07.098] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[02Jun2026 21:25:07.098] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[02Jun2026 21:25:07.098] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[02Jun2026 21:25:07.099] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[02Jun2026 21:25:07.099] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[02Jun2026 21:25:07.099] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[02Jun2026 21:25:07.250] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[02Jun2026 21:25:07.251] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[02Jun2026 21:25:08.400] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[02Jun2026 21:25:08.425] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id otyacraftengine:block_entity_instruction
+[02Jun2026 21:25:08.428] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id otyacraftengine:item_instruction
+[02Jun2026 21:25:08.934] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for enchantinginfuser:main
+[02Jun2026 21:25:09.110] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[02Jun2026 21:25:09.125] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[02Jun2026 21:25:09.289] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[02Jun2026 21:25:09.290] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[02Jun2026 21:25:09.291] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[02Jun2026 21:25:09.292] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[02Jun2026 21:25:09.295] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[02Jun2026 21:25:09.296] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[02Jun2026 21:25:09.297] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[02Jun2026 21:25:09.327] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
+[02Jun2026 21:25:09.351] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[02Jun2026 21:25:09.414] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[02Jun2026 21:25:09.414] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[02Jun2026 21:25:09.591] [modloading-worker-0/INFO] [com.teamdurt.netherdungeons.NetherDungeons/]: Nether Dungeons mod init finished.
+[02Jun2026 21:25:09.611] [modloading-worker-0/INFO] [Animal Feeding Trough/]: [Animal Feeding Trough] Load Complete! Enjoy :D
+[02Jun2026 21:25:10.099] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[02Jun2026 21:25:10.137] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[02Jun2026 21:25:11.482] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@78828aca has been registered twice for the same name treechop:chop_wood.
+[02Jun2026 21:25:11.511] [main/INFO] [zeta-internal/]: Dispatching ZRegister to 3 listeners
+[02Jun2026 21:25:11.517] [main/INFO] [zeta-internal/]: Dispatching ZRegister$Post to 1 listener
+[02Jun2026 21:25:14.677] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:owl] was not realized!
+[02Jun2026 21:25:14.677] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:mossy_sheep] was not realized!
+[02Jun2026 21:25:14.677] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:female_zombie_villager] was not realized!
+[02Jun2026 21:25:14.677] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:wandering_gardener] was not realized!
+[02Jun2026 21:25:14.677] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:muddy_pig] was not realized!
+[02Jun2026 21:25:14.678] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:male_villager] was not realized!
+[02Jun2026 21:25:14.678] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:pelican] was not realized!
+[02Jun2026 21:25:14.678] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:termite] was not realized!
+[02Jun2026 21:25:14.678] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:red_wolf] was not realized!
+[02Jun2026 21:25:14.678] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[02Jun2026 21:25:14.678] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:raccoon] was not realized!
+[02Jun2026 21:25:14.678] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:boar] was not realized!
+[02Jun2026 21:25:14.678] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:turkey] was not realized!
+[02Jun2026 21:25:14.678] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:female_villager] was not realized!
+[02Jun2026 21:25:14.678] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:grim_reaper] was not realized!
+[02Jun2026 21:25:14.678] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[02Jun2026 21:25:14.678] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:male_zombie_villager] was not realized!
+[02Jun2026 21:25:14.678] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:squirrel] was not realized!
+[02Jun2026 21:25:14.678] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:deer] was not realized!
+[02Jun2026 21:25:14.679] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[02Jun2026 21:25:14.679] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:bison] was not realized!
+[02Jun2026 21:25:14.682] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:owl] was not realized!
+[02Jun2026 21:25:14.682] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:mossy_sheep] was not realized!
+[02Jun2026 21:25:14.682] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:female_zombie_villager] was not realized!
+[02Jun2026 21:25:14.682] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:wandering_gardener] was not realized!
+[02Jun2026 21:25:14.682] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:muddy_pig] was not realized!
+[02Jun2026 21:25:14.682] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:male_villager] was not realized!
+[02Jun2026 21:25:14.682] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:pelican] was not realized!
+[02Jun2026 21:25:14.682] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:termite] was not realized!
+[02Jun2026 21:25:14.682] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:red_wolf] was not realized!
+[02Jun2026 21:25:14.682] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[02Jun2026 21:25:14.682] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:raccoon] was not realized!
+[02Jun2026 21:25:14.682] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:boar] was not realized!
+[02Jun2026 21:25:14.683] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:turkey] was not realized!
+[02Jun2026 21:25:14.683] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:female_villager] was not realized!
+[02Jun2026 21:25:14.683] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:grim_reaper] was not realized!
+[02Jun2026 21:25:14.683] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[02Jun2026 21:25:14.683] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:male_zombie_villager] was not realized!
+[02Jun2026 21:25:14.683] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:squirrel] was not realized!
+[02Jun2026 21:25:14.683] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:deer] was not realized!
+[02Jun2026 21:25:14.683] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[02Jun2026 21:25:14.683] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:bison] was not realized!
+[02Jun2026 21:25:14.688] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:owl] was not realized!
+[02Jun2026 21:25:14.688] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:mossy_sheep] was not realized!
+[02Jun2026 21:25:14.688] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:female_zombie_villager] was not realized!
+[02Jun2026 21:25:14.688] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:wandering_gardener] was not realized!
+[02Jun2026 21:25:14.688] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:muddy_pig] was not realized!
+[02Jun2026 21:25:14.688] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:male_villager] was not realized!
+[02Jun2026 21:25:14.689] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:pelican] was not realized!
+[02Jun2026 21:25:14.689] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:termite] was not realized!
+[02Jun2026 21:25:14.689] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:red_wolf] was not realized!
+[02Jun2026 21:25:14.689] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:raccoon] was not realized!
+[02Jun2026 21:25:14.689] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:boar] was not realized!
+[02Jun2026 21:25:14.689] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:turkey] was not realized!
+[02Jun2026 21:25:14.689] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:female_villager] was not realized!
+[02Jun2026 21:25:14.689] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:grim_reaper] was not realized!
+[02Jun2026 21:25:14.689] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[02Jun2026 21:25:14.689] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:male_zombie_villager] was not realized!
+[02Jun2026 21:25:14.690] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:squirrel] was not realized!
+[02Jun2026 21:25:14.690] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:deer] was not realized!
+[02Jun2026 21:25:14.690] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bloomingnature:bison] was not realized!
+[02Jun2026 21:25:14.696] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:female_zombie_villager] was not realized!
+[02Jun2026 21:25:14.696] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:male_villager] was not realized!
+[02Jun2026 21:25:14.696] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:female_villager] was not realized!
+[02Jun2026 21:25:14.697] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:grim_reaper] was not realized!
+[02Jun2026 21:25:14.697] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[02Jun2026 21:25:14.697] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:male_zombie_villager] was not realized!
+[02Jun2026 21:25:14.788] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[02Jun2026 21:25:14.793] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[02Jun2026 21:25:15.105] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[02Jun2026 21:25:15.106] [main/INFO] [ModernFix/]: Instantiating Mojang DFU
+[02Jun2026 21:25:16.041] [main/WARN] [Easy NPC/]: [Custom Entity Data] Please define a custom index instead of using the auto-generated.
+[02Jun2026 21:25:16.046] [main/INFO] [Easy NPC/]: Register data serializers ...
+[02Jun2026 21:25:16.047] [main/INFO] [Easy NPC/]: - Registering Synched Attack Data for EasyNPCBaseEntity.
+[02Jun2026 21:25:16.047] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttackData
+[02Jun2026 21:25:16.047] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttackData
+[02Jun2026 21:25:16.048] [main/INFO] [Easy NPC/]: - Registering Synched Attribute Data for EasyNPCBaseEntity.
+[02Jun2026 21:25:16.048] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[02Jun2026 21:25:16.048] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[02Jun2026 21:25:16.048] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[02Jun2026 21:25:16.048] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[02Jun2026 21:25:16.048] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[02Jun2026 21:25:16.049] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[02Jun2026 21:25:16.049] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[02Jun2026 21:25:16.049] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[02Jun2026 21:25:16.049] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[02Jun2026 21:25:16.049] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[02Jun2026 21:25:16.050] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[02Jun2026 21:25:16.050] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[02Jun2026 21:25:16.050] [main/INFO] [Easy NPC/]: - Registering Synched Navigation Data for EasyNPCBaseEntity.
+[02Jun2026 21:25:16.051] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.NavigationData
+[02Jun2026 21:25:16.051] [main/INFO] [Easy NPC/]: - Registering Synched Owner Data for EasyNPCBaseEntity.
+[02Jun2026 21:25:16.051] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.OwnerData
+[02Jun2026 21:25:16.051] [main/INFO] [Easy NPC/]: - Registering Synched Profession Data for EasyNPCBaseEntity.
+[02Jun2026 21:25:16.052] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ProfessionData
+[02Jun2026 21:25:16.052] [main/INFO] [Easy NPC/]: - Registering Synched Render Data for EasyNPCBaseEntity.
+[02Jun2026 21:25:16.052] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.RenderData
+[02Jun2026 21:25:16.052] [main/INFO] [Easy NPC/]: - Registering Synched Skin Data for EasyNPCBaseEntity.
+[02Jun2026 21:25:16.052] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
+[02Jun2026 21:25:16.052] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
+[02Jun2026 21:25:16.052] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
+[02Jun2026 21:25:16.052] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
+[02Jun2026 21:25:16.053] [main/INFO] [Easy NPC/]: - Registering Synched Sound Data for EasyNPCBaseEntity.
+[02Jun2026 21:25:16.053] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SoundData
+[02Jun2026 21:25:16.053] [main/INFO] [Easy NPC/]: - Registering Synched Trading Data for EasyNPCBaseEntity.
+[02Jun2026 21:25:16.053] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[02Jun2026 21:25:16.053] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[02Jun2026 21:25:16.054] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[02Jun2026 21:25:16.054] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[02Jun2026 21:25:16.054] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[02Jun2026 21:25:16.054] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[02Jun2026 21:25:16.054] [main/INFO] [Easy NPC/]: - Registering Synched Variant Data for EasyNPCBaseEntity.
+[02Jun2026 21:25:16.055] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.VariantData
+[02Jun2026 21:25:16.089] [main/INFO] [Easy NPC/]: Register model data serializers for ...
+[02Jun2026 21:25:16.089] [main/INFO] [Easy NPC/]: - Registering Synched Model Data for EasyNPCBaseModelEntity.
+[02Jun2026 21:25:16.089] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[02Jun2026 21:25:16.090] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[02Jun2026 21:25:16.090] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[02Jun2026 21:25:16.090] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[02Jun2026 21:25:16.090] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[02Jun2026 21:25:16.091] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[02Jun2026 21:25:16.091] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[02Jun2026 21:25:16.091] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[02Jun2026 21:25:16.091] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[02Jun2026 21:25:16.092] [main/INFO] [Easy NPC/]: - Registering Synched Model Position Data for EasyNPCBaseModelEntity.
+[02Jun2026 21:25:16.092] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[02Jun2026 21:25:16.092] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[02Jun2026 21:25:16.092] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[02Jun2026 21:25:16.092] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[02Jun2026 21:25:16.093] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[02Jun2026 21:25:16.093] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[02Jun2026 21:25:16.093] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[02Jun2026 21:25:16.093] [main/INFO] [Easy NPC/]: - Registering Synched Model Rotation Data for EasyNPCBaseModelEntity.
+[02Jun2026 21:25:16.094] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[02Jun2026 21:25:16.094] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[02Jun2026 21:25:16.095] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[02Jun2026 21:25:16.095] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[02Jun2026 21:25:16.095] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[02Jun2026 21:25:16.095] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[02Jun2026 21:25:16.095] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[02Jun2026 21:25:16.095] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[02Jun2026 21:25:16.096] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[02Jun2026 21:25:16.096] [main/INFO] [Easy NPC/]: - Registering Synched Model Visibility Data for EasyNPCBaseModelEntity.
+[02Jun2026 21:25:16.096] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[02Jun2026 21:25:16.096] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[02Jun2026 21:25:16.096] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[02Jun2026 21:25:16.097] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[02Jun2026 21:25:16.097] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[02Jun2026 21:25:16.098] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[02Jun2026 21:25:16.098] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[02Jun2026 21:25:16.098] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[02Jun2026 21:25:16.098] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[02Jun2026 21:25:16.098] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[02Jun2026 21:25:16.098] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[02Jun2026 21:25:16.099] [main/INFO] [Easy NPC/]: - Registering Synched Scale Data for EasyNPCBaseModelEntity.
+[02Jun2026 21:25:16.099] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ScaleData
+[02Jun2026 21:25:16.099] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ScaleData
+[02Jun2026 21:25:16.100] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ScaleData
+[02Jun2026 21:25:16.187] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.189] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.190] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.190] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.190] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.190] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.190] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.191] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[02Jun2026 21:25:16.193] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.193] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.194] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.194] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.195] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.196] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.196] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.196] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.196] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.197] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.197] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.197] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[02Jun2026 21:25:16.198] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.203] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.203] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[02Jun2026 21:25:16.203] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.203] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[02Jun2026 21:25:16.203] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[02Jun2026 21:25:16.203] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.203] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.203] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.204] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.204] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.206] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.210] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.211] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.212] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.212] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.212] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:25:16.215] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.GrimReaperEntity from class forge.net.mca.util.network.datasync.CEnumParameter
+[02Jun2026 21:25:16.658] [main/INFO] [zeta-internal/]: Dispatching ZConfigChanged to 2 listeners
+[02Jun2026 21:25:16.659] [main/INFO] [zeta/]: 'zeta' is enabling Zeta's piston structure resolver.
+[02Jun2026 21:25:16.813] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Network Handler for net.minecraftforge.network.simple.SimpleChannel@7a3d01a5 with version 21 ...
+[02Jun2026 21:25:16.968] [modloading-worker-0/INFO] [zeta-internal/]: Dispatching ForgeZCommonSetup (as ZCommonSetup) to 2 listeners
+[02Jun2026 21:25:16.997] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/window.json
+[02Jun2026 21:25:17.163] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Found status: OUTDATED Current: 2.2.1 Target: 2.4.2
+[02Jun2026 21:25:17.164] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
+[02Jun2026 21:25:17.201] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[02Jun2026 21:25:17.202] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[02Jun2026 21:25:17.202] [main/INFO] [terrablender/]: Registered region regions_unexplored:primary to index 1 for type OVERWORLD
+[02Jun2026 21:25:17.202] [main/INFO] [terrablender/]: Registered region regions_unexplored:secondary to index 2 for type OVERWORLD
+[02Jun2026 21:25:17.202] [main/INFO] [terrablender/]: Registered region regions_unexplored:nether to index 1 for type NETHER
+[02Jun2026 21:25:17.225] [main/INFO] [zeta-internal/]: Dispatching ZConfigChanged to 2 listeners
+[02Jun2026 21:25:17.228] [main/INFO] [terrablender/]: Registered region ars_nouveau:overworld to index 3 for type OVERWORLD
+[02Jun2026 21:25:17.506] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA_OUTDATED Current: 20.1.11 Target: 20.2.15
+[02Jun2026 21:25:17.506] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
+[02Jun2026 21:25:17.517] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Found status: OUTDATED Current: 3.0.0 Target: 3.1.0
+[02Jun2026 21:25:17.517] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Starting version check at https://maxhenkel.de/update/camera.json
+[02Jun2026 21:25:17.535] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
+[02Jun2026 21:25:17.554] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[02Jun2026 21:25:17.638] [modloading-worker-0/INFO] [zeta-internal/]: Dispatching ForgeZLoadComplete (as ZLoadComplete) to 1 listener
+[02Jun2026 21:25:17.647] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying mega torch entity block list overrides...
+[02Jun2026 21:25:17.647] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying dread lamp entity block list overrides...
+[02Jun2026 21:25:17.686] [main/INFO] [citadel/]: adding citadel surface rules via terrablender...
+[02Jun2026 21:25:17.687] [main/INFO] [citadel/]: Added 0 vanilla biome surface rule types via terrablender
+[02Jun2026 21:25:17.687] [main/INFO] [citadel/]: Added 0 modded biome surface rule types via terrablender
+[02Jun2026 21:25:18.428] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02Jun2026 21:25:18.590] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Found status: UP_TO_DATE Current: 1.20.1-1.0.6 Target: null
+[02Jun2026 21:25:18.596] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
+[02Jun2026 21:25:18.714] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23270!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23270!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	... 6 more
+[02Jun2026 21:25:18.717] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [otyacraftengine] Starting version check at https://raw.githubusercontent.com/TeamFelnull/OtyacraftEngine/master/version_check.json
+[02Jun2026 21:25:18.733] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [otyacraftengine] Found status: UP_TO_DATE Current: 3.7.0-alpha.2 Target: null
+[02Jun2026 21:25:18.741] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
+[02Jun2026 21:25:18.761] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: OUTDATED Current: 3.2.2 Target: 3.4.1
+[02Jun2026 21:25:18.761] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[02Jun2026 21:25:18.950] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23270!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23270!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	... 6 more
+[02Jun2026 21:25:18.951] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/enchantinginfuser.json
+[02Jun2026 21:25:18.966] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Found status: OUTDATED Current: 8.0.2 Target: 8.0.3
+[02Jun2026 21:25:18.966] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[02Jun2026 21:25:18.998] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23270!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23270!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	... 6 more
+[02Jun2026 21:25:19.000] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[02Jun2026 21:25:19.013] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 8.0.7 Target: null
+[02Jun2026 21:25:19.013] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[02Jun2026 21:25:19.041] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: camera:image_frame Expected: 3221 Got: 2856
+[02Jun2026 21:25:19.042] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: camera:camera Expected: 3222 Got: 2857
+[02Jun2026 21:25:19.042] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: camera:image Expected: 3223 Got: 2858
+[02Jun2026 21:25:19.042] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: camera:album Expected: 3224 Got: 2859
+[02Jun2026 21:25:19.045] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: camera:take_image Expected: 1970 Got: 1601
+[02Jun2026 21:25:19.046] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: camera:image_frame Expected: 377 Got: 788
+[02Jun2026 21:25:19.123] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.10
+[02Jun2026 21:25:19.123] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [hmag] Starting version check at https://github.com/Mechalopa/Hostile-Mobs-and-Girls/raw/1.20.1/update.json
+[02Jun2026 21:25:19.283] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [hmag] Found status: OUTDATED Current: 9.0.20 Target: 9.0.37
+[02Jun2026 21:25:19.283] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[02Jun2026 21:25:19.317] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MiSePro/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23269!/assets/.mcassetsroot' uses unexpected schema
+[02Jun2026 21:25:19.317] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MiSePro/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23269!/data/.mcassetsroot' uses unexpected schema
+[02Jun2026 21:25:19.382] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: OUTDATED Current: 1.20.1-1.0.15 Target: 1.20.1-1.0.35
+[02Jun2026 21:25:19.382] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[02Jun2026 21:25:19.394] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 8.1.20 Target: 8.1.33
+[02Jun2026 21:25:22.154] [main/INFO] [Easy NPC/]: 🗣 Register Easy NPC /easy_npc commands for Easy NPC ...
+[02Jun2026 21:25:22.235] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[02Jun2026 21:25:22.252] [main/INFO] [zeta-internal/]: Dispatching ForgeZAddReloadListener (as ZAddReloadListener) to 2 listeners
+[02Jun2026 21:25:22.347] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag humancompanions:has_structure/spruce_house as it is missing following references: minecraft:windswept_gravelley_hills (from humancompanions-1.20.1-1.7.6.jar)
+[02Jun2026 21:25:22.351] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag humancompanions:has_structure/oak_house as it is missing following references: minecraft:windswept_gravelley_hills (from humancompanions-1.20.1-1.7.6.jar)
+[02Jun2026 21:25:22.383] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag humancompanions:swords as it is missing following references: #forge:tools/swords (from humancompanions-1.20.1-1.7.6.jar)
+[02Jun2026 21:25:22.430] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:mushroom_grow_block as it is missing following references: netherdungeons:growth_mauve (from netherdungeons-1.1.0-snapshot3a.jar)
+[02Jun2026 21:25:22.437] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:couch as it is missing following references: cozy_home:couch_oak_white_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:couch_oak_white_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:couch_oak_white (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:couch_oak_white_left (from cozy_home-3.0.3.2-forge-1.20.1.jar)
+[02Jun2026 21:25:22.445] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag fabric:needs_tool_level_0 as it is missing following references: cozy_home:oak_planked_wall (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:spruce_planked_wall (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:birch_planked_wall (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:acacia_planked_wall (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:dark_oak_planked_wall (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:jungle_planked_wall (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:mangrove_planked_wall (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:crimson_planked_wall (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:warped_planked_wall (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_oak_single (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_spruce_single (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_birch_single (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_jungle_single (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_acacia_single (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_dark_oak_single (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_mangrove_single (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_cherry_single (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_crimson (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_warped (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_bamboo_single (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_oak_single (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_spruce_single (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_birch_single (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_jungle_single (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_acacia_single (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_dark_oak_single (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_mangrove_single (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_cherry_single (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_crimson_single (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_warped_single (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_white (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_orange (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_magenta (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_light_blue (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_yellow (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_lime (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_pink (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_gray (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_light_gray (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_cyan (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_purple (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_blue (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_brown (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_green (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_red (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_black (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_quartz (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_quartz_storage (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_quartz_sink (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_oak (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_spruce (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_birch (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_jungle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_acacia (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_dark_oak (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_mangrove (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_cherry (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_crimson (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_warped (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_oak_0 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_birch_0 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_jungle_0 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_dark_oak_0 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_mangrove_0 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_cherry_0 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_bamboo_0 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_crimson_0 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_warped_0 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_spruce_0 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_acacia_0 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_oak (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_spruce (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_birch (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_jungle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_acacia (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_dark_oak (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_mangrove (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_cherry (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_quartz (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_crimson_single (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_warped_single (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:tent (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:rug_trader_single (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:oak_chair_tucked (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:oak_mirror_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:oak_mirror_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:oak_mirror_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:spruce_chair_tucked (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:birch_chair_tucked (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:jungle_chair_tucked (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:spruce_mirror_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:spruce_mirror_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:spruce_mirror_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:birch_mirror_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:birch_mirror_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:birch_mirror_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:jungle_mirror_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:jungle_mirror_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:jungle_mirror_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:acacia_mirror_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:acacia_mirror_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:acacia_mirror_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:dark_oak_mirror_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:dark_oak_mirror_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:dark_oak_mirror_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:mangrove_mirror_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:mangrove_mirror_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:mangrove_mirror_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:crimson_mirror_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:crimson_mirror_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:crimson_mirror_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:warped_mirror_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:warped_mirror_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:warped_mirror_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:acacia_chair_tucked (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:dark_oak_chair_tucked (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:mangrove_chair_tucked (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:crimson_chair_tucked (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:warped_chair_tucked (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_white_off (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_orange_off (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_magenta_off (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_light_blue_off (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_yellow_off (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_lime_off (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_pink_off (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_gray_off (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_light_gray_off (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_cyan_off (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_purple_off (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_blue_off (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_brown_off (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_green_off (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_red_off (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:lamp_black_off (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_oak_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_oak_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_oak_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_spruce_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_spruce_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_spruce_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_birch_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_birch_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_birch_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_jungle_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_jungle_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_jungle_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_acacia_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_acacia_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_acacia_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_dark_oak_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_dark_oak_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_dark_oak_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_mangrove_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_mangrove_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_mangrove_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_crimson_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_crimson_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_crimson_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_warped_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_warped_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_warped_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:oak_planked_wall_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:oak_planked_wall_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:oak_planked_wall_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:spruce_planked_wall_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:spruce_planked_wall_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:spruce_planked_wall_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:birch_planked_wall_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:birch_planked_wall_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:birch_planked_wall_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:acacia_planked_wall_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:acacia_planked_wall_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:acacia_planked_wall_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:dark_oak_planked_wall_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:dark_oak_planked_wall_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:dark_oak_planked_wall_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:jungle_planked_wall_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:jungle_planked_wall_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:jungle_planked_wall_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:mangrove_planked_wall_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:mangrove_planked_wall_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:mangrove_planked_wall_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:crimson_planked_wall_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:crimson_planked_wall_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:crimson_planked_wall_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:warped_planked_wall_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:warped_planked_wall_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:warped_planked_wall_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:tent_open (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:bamboo_chair_tucked (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_oak_corner (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_oak_double (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_oak_side (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_oak_straight (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_oak_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_birch_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_birch_straight (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_birch_side (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_birch_double (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_birch_corner (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_acacia_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_acacia_straight (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_acacia_side (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_acacia_double (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_acacia_corner (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_dark_oak_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_dark_oak_straight (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_dark_oak_side (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_dark_oak_double (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_dark_oak_corner (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_spruce_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_spruce_straight (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_spruce_side (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_spruce_double (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_spruce_corner (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_jungle_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_jungle_straight (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_strump_jungle_side (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_jungle_double (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_jungle_corner (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_mangrove_straight (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_mangrove_side (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_mangrove_double (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_mangrove_corner (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_mangrove_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_crimson_straight (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_crimson_side (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_crimson_double (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_crimson_corner (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_crimson_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_warped_straight (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_warped_side (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_warped_double (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_warped_corner (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_warped_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_oak_1 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_oak_2 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_oak_3 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_birch_1 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_birch_2 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_birch_3 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_jungle_1 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_jungle_2 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_jungle_3 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_dark_oak_1 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_dark_oak_2 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_dark_oak_3 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_mangrove_1 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_mangrove_2 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_mangrove_3 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_bamboo_1 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_bamboo_2 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_bamboo_3 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_crimson_1 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_crimson_2 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_crimson_3 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_warped_1 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_warped_2 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_warped_3 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_spruce_1 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_spruce_2 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_spruce_3 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_acacia_1 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_acacia_2 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_acacia_3 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_oak_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_oak_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_oak_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_spruce_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_spruce_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_spruce_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_birch_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_birch_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_birch_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_jungle_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_jungle_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_jungle_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_acacia_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_acacia_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_acacia_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_dark_oak_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_dark_oak_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_dark_oak_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_mangrove_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_mangrove_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_mangrove_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_crimson_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_crimson_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_crimson_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_warped_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_warped_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_warped_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_oak_corner (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_oak_double (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_oak_side (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_oak_straight (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_oak_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_spruce_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_spruce_straight (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_spruce_side (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_spruce_double (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_spruce_corner (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_birch_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_birch_straight (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_birch_side (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_birch_double (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_birch_corner (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_jungle_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_jungle_straight (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_jungle_side (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_jungle_double (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_jungle_corner (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:quartz_mirror_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:quartz_mirror_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:quartz_mirror_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_quartz_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_quartz_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_quartz_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:bamboo_mirror_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:bamboo_mirror_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:bamboo_mirror_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:chimney_brick_long (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:chimney_netherbrick_long (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:chimney_stonebrick_long (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:chimney_brick_intake (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:chimney_stonebrick_intake (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:chimney_netherbrick_intake (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:chimney_brick_solid (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:chimney_stonebrick_solid (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:chimney_netherbrick_solid (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:chimney_cobblestone_long (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:chimney_cobblestone_intake (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:chimney_cobblestone_solid (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_quartz_outer_corner_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_quartz_inner_corner_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_quartz_inner_corner_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_quartz_outer_corner_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:rug_trader_corner (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:rug_trader_double (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:rug_trader_side (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:rug_trader_straight (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:rug_trader_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_acacia_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_acacia_straight (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_acacia_side (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_acacia_double (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_acacia_corner (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_bamboo_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_bamboo_straight (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_bamboo_side (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_bamboo_double (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_bamboo_corner (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_dark_oak_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_dark_oak_straight (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_dark_oak_side (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_dark_oak_double (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_dark_oak_corner (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_mangrove_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_mangrove_straight (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_mangrove_side (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_mangrove_double (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_mangrove_corner (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_crimson_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_crimson_straight (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_crimson_side (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_crimson_double (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_crimson_corner (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_warped_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_warped_straight (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_warped_side (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_warped_double (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_warped_corner (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:cherry_chair_tucked (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_cherry_1 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_cherry_2 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:plank_cherry_3 (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_cherry_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_cherry_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_cherry_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_cherry_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_cherry_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:desk_cherry_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:cherry_mirror_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:cherry_mirror_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:cherry_mirror_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_cherry_corner (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_cherry_double (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_cherry_side (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_cherry_straight (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_cherry_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_cherry_corner (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_cherry_double (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_cherry_side (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_cherry_straight (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:table_stump_cherry_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:oak_bench_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:oak_bench_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:oak_bench_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:spruce_bench_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:spruce_bench_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:spruce_bench_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:birch_bench_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:birch_bench_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:birch_bench_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:jungle_bench_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:jungle_bench_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:jungle_bench_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:acacia_bench_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:acacia_bench_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:acacia_bench_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:bamboo_bench_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:bamboo_bench_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:bamboo_bench_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:cherry_bench_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:cherry_bench_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:cherry_bench_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:dark_oak_bench_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:dark_oak_bench_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:dark_oak_bench_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:crimson_bench_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:crimson_bench_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:crimson_bench_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:mangrove_bench_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:mangrove_bench_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:mangrove_bench_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:quartz_bench_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:quartz_bench_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:quartz_bench_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:warped_bench_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:warped_bench_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:warped_bench_right (from cozy_home-3.0.3.2-forge-1.20.1.jar)
+[02Jun2026 21:25:22.451] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag fabric:needs_tool_level_1 as it is missing following references: cozy_home:counter_oak (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_oak_storage (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_oak_sink (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_spruce (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_spruce_storage (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_spruce_sink (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_birch (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_birch_storage (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_birch_sink (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_jungle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_jungle_storage (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_jungle_sink (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_acacia (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_acacia_storage (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_acacia_sink (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_dark_oak (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_dark_oak_storage (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_dark_oak_sink (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_mangrove (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_mangrove_storage (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_mangrove_sink (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_cherry (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_cherry_storage (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_cherry_sink (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_crimson (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_crimson_storage (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_crimson_sink (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_warped (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_warped_storage (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_warped_sink (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_quartz (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_oak_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_spruce_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_birch_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_jungle_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_acacia_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_dark_oak_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_mangrove_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_cherry_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_crimson_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_warped_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_bamboo_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_quartz_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:fireplace_oak (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_quartz_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_quartz_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:drawer_quartz_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:quartz_chair_tucked (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_oak_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_oak_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_spruce_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_spruce_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_birch_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_birch_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_jungle_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_jungle_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_acacia_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_acacia_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_dark_oak_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_dark_oak_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_mangrove_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_mangrove_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_crimson_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_crimson_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_warped_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_warped_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_bamboo_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_bamboo_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_quartz_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_quartz_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_oak_outer_corner_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_oak_outer_corner_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_oak_inner_corner_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_oak_inner_corner_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_spruce_outer_corner_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_spruce_outer_corner_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_spruce_inner_corner_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_spruce_inner_corner_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_birch_outer_corner_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_birch_inner_corner_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_birch_inner_corner_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_jungle_outer_corner_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_jungle_inner_corner_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_jungle_inner_corner_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_birch_outer_corner_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_jungle_outer_corner_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_acacia_outer_corner_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_acacia_inner_corner_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_acacia_inner_corner_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_acacia_outer_corner_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_dark_oak_outer_corner_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_dark_oak_inner_corner_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_dark_oak_inner_corner_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_dark_oak_outer_corner_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_mangrove_outer_corner_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_mangrove_inner_corner_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_mangrove_inner_corner_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_mangrove_outer_corner_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_crimson_outer_corner_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_crimson_inner_corner_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_crimson_inner_corner_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_crimson_outer_corner_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_warped_outer_corner_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_warped_inner_corner_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_warped_inner_corner_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_warped_outer_corner_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_cherry_outer_corner_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_cherry_outer_corner_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_cherry_inner_corner_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:counter_cherry_corner_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_cherry_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_cherry_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:fireplace_oak_horizontal_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:fireplace_oak_horizontal_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:fireplace_oak_horizontal_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:fireplace_oak_vertical_bottom (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:fireplace_oak_vertical_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:fireplace_oak_vertical_top (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:fireplace_oak_top_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:fireplace_oak_top_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:fireplace_oak_top_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:fireplace_oak_middle_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:fireplace_oak_middle_right (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:fireplace_oak_bottom_left (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:fireplace_oak_bottom_middle (from cozy_home-3.0.3.2-forge-1.20.1.jar), 
+	cozy_home:fireplace_oak_bottom_right (from cozy_home-3.0.3.2-forge-1.20.1.jar)
+[02Jun2026 21:25:23.278] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:mynethersdelight:blocks/blackstone_cooking_pot
+com.google.gson.JsonSyntaxException: Unknown type 'mynethersdelight:copy_meal'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23269!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23269!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23269!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:149) ~[server-1.20.1-20230612.114412-srg.jar%23269!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23269!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23269!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23269!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23269!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23269!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23269!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23269!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23269!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23269!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23269!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23269!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23269!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23274!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23274!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23269!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23269!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23269!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[02Jun2026 21:25:23.440] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:dungeons_arise:chests/illager_campsite/illager_campsite_map}.pools[7].entries[0]->{minecraft:chests/pillager_outpost}.pools[8].entries[0].functions[2]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[02Jun2026 21:25:23.440] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/pillager_outpost}.pools[8].entries[0].functions[2]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[02Jun2026 21:25:23.440] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:dungeons_arise:chests/illager_campsite/illager_campsite_tent}.pools[5].entries[0]->{minecraft:chests/pillager_outpost}.pools[8].entries[0].functions[2]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[02Jun2026 21:25:23.528] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe mynethersdelight:chilidog_alt: com.google.gson.JsonSyntaxException: Unknown item 'farmersrespite:blazing_chili'
+[02Jun2026 21:25:23.565] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe useless_sword:life_draining_sword_recipe: com.google.gson.JsonSyntaxException: Unknown item 'twilightforest:carminite'
+[02Jun2026 21:25:23.591] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe useless_sword:refined_radiance_glaive_recipe: com.google.gson.JsonSyntaxException: Unknown item 'create:refined_radiance'
+[02Jun2026 21:25:23.595] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe cozy_home:drawer_quartz_recipe: com.google.gson.JsonSyntaxException: Unknown item 'cozy_home:deleted_mod_element'
+[02Jun2026 21:25:23.596] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe useless_sword:naga_slicer_recipe: com.google.gson.JsonSyntaxException: Unknown item 'twilightforest:naga_scale'
+[02Jun2026 21:25:23.646] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe cozy_home:andesite_brick_to_block_recipe: com.google.gson.JsonSyntaxException: Unknown item 'cozy_home:andesite_brick'
+[02Jun2026 21:25:23.669] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe cozy_home:spruce_fireplace_recipe: com.google.gson.JsonSyntaxException: Unknown item 'cozy_home:plank_spruce_0'
+[02Jun2026 21:25:23.669] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe useless_sword:chocolate_sword_recipe: com.google.gson.JsonSyntaxException: Unknown item 'create:bar_of_chocolate'
+[02Jun2026 21:25:23.672] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe useless_sword:rotten_fish_rapier_recipe: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:fish_bones'
+[02Jun2026 21:25:23.676] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe useless_sword:pesting_rapier_recipe: com.google.gson.JsonSyntaxException: Unknown item 'twilightforest:firefly'
+[02Jun2026 21:25:23.686] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe useless_sword:ravager_sword_craft_2: com.google.gson.JsonSyntaxException: Unknown item 'quark:ravager_hide'
+[02Jun2026 21:25:23.702] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe useless_sword:brass_head_turner_recipe: com.google.gson.JsonSyntaxException: Unknown item 'create:turntable'
+[02Jun2026 21:25:23.706] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe useless_sword:dragonbreathdiamondswordcraft2: com.google.gson.JsonSyntaxException: Unknown item 'useless_sword:dragonbreathdiamondsword'
+[02Jun2026 21:25:23.716] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe useless_sword:neptunium_grab_sword_recipe: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:iron_hook'
+[02Jun2026 21:25:23.737] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe useless_sword:message_in_a_sword_recipe: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:message_in_a_bottle'
+[02Jun2026 21:25:23.743] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe useless_sword:copper_jigsaw_slicer_recipe: com.google.gson.JsonSyntaxException: Unknown item 'create:mechanical_saw'
+[02Jun2026 21:25:23.767] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe netherdungeons:crafting/chiseled_polished_gilded_blackstone: com.google.gson.JsonSyntaxException: Unknown item 'netherdungeons:polished_gilded_blackstone_slab'
+[02Jun2026 21:25:23.774] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe mynethersdelight:cutting/hoglin_sausage_alt: com.google.gson.JsonSyntaxException: Unknown item 'nethersdelight:hoglin_loin'
+[02Jun2026 21:25:23.799] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 28 recipes
+[02Jun2026 21:25:23.843] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement useless_sword:swordmaster: Expected item to be an item, was unknown string 'useless_sword:withersword'
+[02Jun2026 21:25:23.981] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement beautify:progression/candelabra: Expected item to be an item, was unknown string 'beautify:lamp_candleabra'
+[02Jun2026 21:25:24.014] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4748 advancements
+[02Jun2026 21:25:24.032] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
+[02Jun2026 21:25:24.035] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
+[02Jun2026 21:25:24.037] [main/ERROR] [bettervillage/]: Ice And Fire compatibility is not enabled for Better Village and Ice And Fire is present in your mod list.
+     - Please install the datapack for better compatibility between Better Villages and Ice And Fire.
+     - You can find the datapack URL in the `compatibility` section of the Better Villages description.
+     - URL=https://www.curseforge.com/minecraft/mc-mods/better-village-forge
+[02Jun2026 21:25:24.148] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: humancompanions:has_structure/oak_house, humancompanions:has_structure/spruce_house, minecraft:is_plains
+[02Jun2026 21:25:24.229] [main/INFO] [zeta-internal/]: Dispatching ZTagsUpdated to 1 listener
+[02Jun2026 21:25:24.269] [main/WARN] [ModernFix/]: Initial datapack load took 4.901 s
+[02Jun2026 21:25:24.770] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[02Jun2026 21:25:24.771] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[02Jun2026 21:25:24.771] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[02Jun2026 21:25:24.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[02Jun2026 21:25:24.951] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[02Jun2026 21:25:24.987] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[02Jun2026 21:25:25.109] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02Jun2026 21:25:25.109] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[02Jun2026 21:25:25.110] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02Jun2026 21:25:25.110] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[02Jun2026 21:25:25.140] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/camera-server.toml is not correct. Correcting
+[02Jun2026 21:25:25.142] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key camera was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Jun2026 21:25:25.142] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key camera.cooldown was corrected from null to its default, 5000. 
+[02Jun2026 21:25:25.143] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key camera.consumed_item was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Jun2026 21:25:25.143] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key camera.consumed_item.amount was corrected from null to its default, 1. 
+[02Jun2026 21:25:25.144] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key image was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Jun2026 21:25:25.145] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key image.max_size was corrected from null to its default, 200000. 
+[02Jun2026 21:25:25.146] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key image.compression was corrected from null to its default, 0.5. 
+[02Jun2026 21:25:25.146] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key image.allow_upload was corrected from null to its default, true. 
+[02Jun2026 21:25:25.147] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key image_frame was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Jun2026 21:25:25.148] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key image_frame.only_owner_modify was corrected from null to its default, false. 
+[02Jun2026 21:25:25.149] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced_data was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Jun2026 21:25:25.149] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced_data.enable was corrected from null to its default, false. 
+[02Jun2026 21:25:25.149] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced_data.max_entities was corrected from null to its default, 16. 
+[02Jun2026 21:25:25.158] [Server thread/INFO] [Puzzles Lib/]: Loading server config for enchantinginfuser
+[02Jun2026 21:25:25.669] [Server thread/INFO] [Framework/]: Loading server configs...
+[02Jun2026 21:25:25.717] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[02Jun2026 21:25:26.112] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[02Jun2026 21:25:26.112] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[02Jun2026 21:25:26.836] [Server thread/INFO] [net.regions_unexplored.RegionsUnexploredMod/]: Loading dimension "minecraft:the_nether" with biome source: "minecraft:multi_noise".
+[02Jun2026 21:25:26.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[02Jun2026 21:25:29.398] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jun2026 21:25:29.399] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jun2026 21:25:29.399] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jun2026 21:25:29.400] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jun2026 21:25:29.400] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jun2026 21:25:29.400] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jun2026 21:25:29.838] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jun2026 21:25:30.544] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3707 ms
+[02Jun2026 21:25:30.545] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (5.419s)! For help, type "help"
+[02Jun2026 21:25:30.606] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[02Jun2026 21:25:30.614] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[02Jun2026 21:25:30.614] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[02Jun2026 21:25:30.615] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[02Jun2026 21:25:30.634] [Server thread/WARN] [ModernFix/]: Dedicated server took 39.466 seconds to load
+[02Jun2026 21:27:31.921] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: KanaShouri[/10.217.7.108:56051] logged in with entity id 163 at (-12.671370275374334, 158.0, -19.269867720014076)
+[02Jun2026 21:27:31.953] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player KanaShouri
+[02Jun2026 21:27:32.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KanaShouri joined the game
+[02Jun2026 21:33:06.596] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:06.597] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:06.597] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:06.597] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:06.597] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:06.597] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:06.597] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:06.597] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[02Jun2026 21:33:06.598] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:06.598] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:06.598] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:06.598] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:06.598] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:06.598] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:06.598] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:06.598] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:06.599] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:06.599] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:06.599] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:06.599] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[02Jun2026 21:33:06.599] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:06.599] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:06.600] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[02Jun2026 21:33:06.600] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:06.600] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[02Jun2026 21:33:06.600] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[02Jun2026 21:33:06.600] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:06.600] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:06.600] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:06.601] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:06.601] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:06.601] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:06.601] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:06.601] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:06.601] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:06.601] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:06.601] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[02Jun2026 21:33:13.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KanaShouri: Set own game mode to Survival Mode]
+[02Jun2026 21:33:18.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KanaShouri: Set own game mode to Creative Mode]
+[02Jun2026 21:33:37.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KanaShouri has made the advancement [Minecraft Comes Alive]
+[02Jun2026 21:34:20.433] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-228, y=33, z=-332}
+[02Jun2026 21:34:20.434] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-228, y=33, z=-333}
+[02Jun2026 21:34:20.434] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-228, y=33, z=-334}
+[02Jun2026 21:34:20.435] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-228, y=33, z=-335}
+[02Jun2026 21:34:20.435] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-228, y=33, z=-336}
+[02Jun2026 21:34:20.435] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-223, y=26, z=-337}
+[02Jun2026 21:34:20.436] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-223, y=27, z=-337}
+[02Jun2026 21:34:20.436] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-223, y=26, z=-336}
+[02Jun2026 21:34:23.536] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-326, y=31, z=-339}
+[02Jun2026 21:34:23.537] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-325, y=31, z=-339}
+[02Jun2026 21:34:23.537] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-322, y=26, z=-337}
+[02Jun2026 21:34:23.540] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-327, y=25, z=-340}
+[02Jun2026 21:34:23.541] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-319, y=26, z=-339}
+[02Jun2026 21:34:23.542] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-320, y=25, z=-336}
+[02Jun2026 21:34:23.542] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-319, y=25, z=-336}
+[02Jun2026 21:34:23.547] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-351, y=30, z=-358}
+[02Jun2026 21:34:23.551] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-348, y=36, z=-361}
+[02Jun2026 21:34:23.559] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-227, y=26, z=-339}
+[02Jun2026 21:34:23.561] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-226, y=31, z=-338}
+[02Jun2026 21:34:23.561] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-227, y=31, z=-338}
+[02Jun2026 21:34:23.653] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-203, y=26, z=-380}
+[02Jun2026 21:34:23.654] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-204, y=26, z=-380}
+[02Jun2026 21:34:23.655] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-202, y=28, z=-380}
+[02Jun2026 21:34:23.910] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-326, y=31, z=-331}
+[02Jun2026 21:34:24.573] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-370, y=31, z=-408}
+[02Jun2026 21:34:24.623] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-376, y=31, z=-420}
+[02Jun2026 21:34:24.624] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-376, y=31, z=-419}
+[02Jun2026 21:34:24.723] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-383, y=26, z=-338}
+[02Jun2026 21:34:24.724] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-383, y=26, z=-340}
+[02Jun2026 21:34:24.724] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-376, y=31, z=-339}
+[02Jun2026 21:34:24.725] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-376, y=31, z=-338}
+[02Jun2026 21:34:24.725] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-379, y=25, z=-343}
+[02Jun2026 21:34:24.726] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-376, y=32, z=-338}
+[02Jun2026 21:34:24.864] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-203, y=33, z=-388}
+[02Jun2026 21:34:24.865] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-206, y=31, z=-384}
+[02Jun2026 21:34:24.865] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-203, y=31, z=-381}
+[02Jun2026 21:34:24.866] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-204, y=31, z=-381}
+[02Jun2026 21:34:24.964] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-200, y=35, z=-385}
+[02Jun2026 21:34:24.964] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-198, y=28, z=-384}
+[02Jun2026 21:34:24.965] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-199, y=33, z=-385}
+[02Jun2026 21:34:24.990] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-383, y=26, z=-338}
+[02Jun2026 21:34:24.991] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-383, y=26, z=-340}
+[02Jun2026 21:34:24.991] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-376, y=31, z=-339}
+[02Jun2026 21:34:24.991] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-376, y=31, z=-338}
+[02Jun2026 21:34:24.992] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-376, y=32, z=-338}
+[02Jun2026 21:34:26.179] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-337, y=26, z=-417}
+[02Jun2026 21:34:26.180] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-337, y=26, z=-415}
+[02Jun2026 21:34:26.180] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-335, y=26, z=-417}
+[02Jun2026 21:34:26.181] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-335, y=26, z=-415}
+[02Jun2026 21:34:26.272] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-379, y=25, z=-343}
+[02Jun2026 21:34:26.822] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-368, y=26, z=-308}
+[02Jun2026 21:34:26.823] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-367, y=31, z=-310}
+[02Jun2026 21:34:26.857] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-371, y=26, z=-306}
+[02Jun2026 21:34:26.857] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-370, y=36, z=-302}
+[02Jun2026 21:34:26.857] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-367, y=31, z=-303}
+[02Jun2026 21:34:26.861] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-351, y=30, z=-358}
+[02Jun2026 21:34:26.861] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-348, y=36, z=-361}
+[02Jun2026 21:34:28.035] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-321, y=25, z=-365}
+[02Jun2026 21:34:28.061] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-250, y=25, z=-355}
+[02Jun2026 21:34:28.062] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-249, y=25, z=-357}
+[02Jun2026 21:34:28.063] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-248, y=25, z=-356}
+[02Jun2026 21:34:28.063] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-247, y=26, z=-359}
+[02Jun2026 21:34:28.064] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-245, y=26, z=-359}
+[02Jun2026 21:34:28.064] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-249, y=26, z=-359}
+[02Jun2026 21:34:28.065] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-250, y=26, z=-363}
+[02Jun2026 21:34:28.065] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-250, y=26, z=-364}
+[02Jun2026 21:34:28.066] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-245, y=26, z=-364}
+[02Jun2026 21:34:28.066] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-246, y=26, z=-364}
+[02Jun2026 21:34:28.067] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-245, y=26, z=-360}
+[02Jun2026 21:34:28.067] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-247, y=26, z=-360}
+[02Jun2026 21:34:28.068] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-249, y=26, z=-360}
+[02Jun2026 21:34:28.068] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-242, y=30, z=-365}
+[02Jun2026 21:34:28.069] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-249, y=30, z=-363}
+[02Jun2026 21:34:28.096] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-323, y=31, z=-358}
+[02Jun2026 21:34:28.099] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-323, y=36, z=-361}
+[02Jun2026 21:34:28.170] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-272, y=27, z=-357}
+[02Jun2026 21:34:28.171] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-266, y=28, z=-358}
+[02Jun2026 21:34:32.731] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-227, y=26, z=-385}
+[02Jun2026 21:34:32.731] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-223, y=26, z=-385}
+[02Jun2026 21:40:51.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KanaShouri has made the advancement [Alex's Mobs]
+[02Jun2026 21:43:54.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KanaShouri has reached the goal [Sky's the Limit]
+[02Jun2026 21:44:18.926] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-189, y=35, z=-533}
+[02Jun2026 21:44:18.927] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-189, y=36, z=-533}
+[02Jun2026 21:44:19.084] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-235, y=27, z=-544}
+[02Jun2026 21:44:21.582] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-234, y=32, z=-539}
+[02Jun2026 21:44:21.723] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-250, y=27, z=-536}
+[02Jun2026 21:44:21.723] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-251, y=27, z=-536}
+[02Jun2026 21:44:21.724] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-252, y=27, z=-536}
+[02Jun2026 21:44:21.724] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-250, y=28, z=-536}
+[02Jun2026 21:44:21.724] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-251, y=28, z=-536}
+[02Jun2026 21:44:21.725] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-252, y=28, z=-536}
+[02Jun2026 21:45:37.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KanaShouri: Set own game mode to Spectator Mode]
+[02Jun2026 21:46:12.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KanaShouri: Set own game mode to Creative Mode]
+[02Jun2026 21:47:52.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KanaShouri has made the advancement [Defunct Machinery]
+[02Jun2026 21:47:55.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KanaShouri has made the advancement [Magery]
+[02Jun2026 21:48:54.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KanaShouri has reached the goal [Quaint Scribe]
+[02Jun2026 21:51:39.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KanaShouri: Set own game mode to Spectator Mode]
+[02Jun2026 21:51:40.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KanaShouri: Set own game mode to Survival Mode]
+[02Jun2026 21:51:49.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KanaShouri: Set own game mode to Spectator Mode]
+[02Jun2026 21:51:51.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KanaShouri: Set own game mode to Survival Mode]
+[02Jun2026 21:52:02.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KanaShouri: Set own game mode to Spectator Mode]
+[02Jun2026 21:52:07.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KanaShouri: Set own game mode to Survival Mode]
+[02Jun2026 21:52:24.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KanaShouri: Set own game mode to Creative Mode]
+[02Jun2026 21:52:37.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KanaShouri: Set own game mode to Survival Mode]
+[02Jun2026 21:53:02.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KanaShouri: Set own game mode to Creative Mode]
+[02Jun2026 21:56:34.093] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KanaShouri lost connection: Disconnected
+[02Jun2026 21:57:06.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KanaShouri left the game
+[02Jun2026 21:57:06.402] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 32267ms or 645 ticks behind
